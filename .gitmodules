@@ -4,3 +4,6 @@
 [submodule "robotnik_sensors"]
 	path = robotnik_sensors
 	url = https://github.com/RobotnikAutomation/robotnik_sensors.git
+[submodule "robot_localization"]
+	path = robot_localization
+	url = https://github.com/cra-ros-pkg/robot_localization.git
