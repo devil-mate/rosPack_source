@@ -13,3 +13,6 @@
 [submodule "unique_identifier"]
 	path = unique_identifier
 	url = https://github.com/ros-geographic-info/unique_identifier.git
+[submodule "mavros"]
+	path = mavros
+	url = https://github.com/mavlink/mavros.git
