@@ -7,3 +7,6 @@
 [submodule "robot_localization"]
 	path = robot_localization
 	url = https://github.com/cra-ros-pkg/robot_localization.git
+[submodule "geographic_info"]
+	path = geographic_info
+	url = https://github.com/ros-geographic-info/geographic_info.git
