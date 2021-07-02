@@ -16,3 +16,6 @@
 [submodule "mavros"]
 	path = mavros
 	url = https://github.com/mavlink/mavros.git
+[submodule "navigation"]
+	path = navigation
+	url = https://github.com/ros-planning/navigation.git
