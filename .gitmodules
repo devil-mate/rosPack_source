@@ -25,3 +25,6 @@
 [submodule "twist_mux"]
 	path = twist_mux
 	url = https://github.com/ros-teleop/twist_mux.git
+[submodule "imu_tools"]
+	path = imu_tools
+	url = https://github.com/ccny-ros-pkg/imu_tools.git
