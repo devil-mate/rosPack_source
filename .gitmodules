@@ -10,3 +10,6 @@
 [submodule "geographic_info"]
 	path = geographic_info
 	url = https://github.com/ros-geographic-info/geographic_info.git
+[submodule "unique_identifier"]
+	path = unique_identifier
+	url = https://github.com/ros-geographic-info/unique_identifier.git
