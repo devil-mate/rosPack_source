@@ -31,3 +31,24 @@
 [submodule "robotnik_msgs"]
 	path = robotnik_msgs
 	url = https://github.com/RobotnikAutomation/robotnik_msgs.git
+[submodule "slam_gmapping"]
+	path = slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping.git
+[submodule "openslam_gmapping"]
+	path = openslam_gmapping
+	url = https://github.com/ros-perception/openslam_gmapping.git
+[submodule "geometry2"]
+	path = geometry2
+	url = https://github.com/ros/geometry2.git
+[submodule "navigation_msgs"]
+	path = navigation_msgs
+	url = https://github.com/ros-planning/navigation_msgs.git
+[submodule "teb_local_planner"]
+	path = teb_local_planner
+	url = https://github.com/rst-tu-dortmund/teb_local_planner.git
+[submodule "costmap_converter"]
+	path = costmap_converter
+	url = https://github.com/rst-tu-dortmund/costmap_converter.git
+[submodule "move_base_flex"]
+	path = move_base_flex
+	url = https://github.com/magazino/move_base_flex.git
