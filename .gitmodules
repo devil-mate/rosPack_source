@@ -52,3 +52,6 @@
 [submodule "move_base_flex"]
 	path = move_base_flex
 	url = https://github.com/magazino/move_base_flex.git
+[submodule "laser_filters"]
+	path = laser_filters
+	url = ./laser_filters/
