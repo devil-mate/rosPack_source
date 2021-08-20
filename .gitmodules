@@ -55,3 +55,6 @@
 [submodule "laser_filters"]
 	path = laser_filters
 	url = ./laser_filters/
+[submodule "octomap_ros"]
+	path = octomap_ros
+	url = ./octomap_ros/
