@@ -58,3 +58,6 @@
 [submodule "octomap_ros"]
 	path = octomap_ros
 	url = ./octomap_ros/
+[submodule "octomap_msgs"]
+	path = octomap_msgs
+	url = ./octomap_msgs/
