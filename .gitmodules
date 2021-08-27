@@ -61,3 +61,6 @@
 [submodule "octomap_msgs"]
 	path = octomap_msgs
 	url = ./octomap_msgs/
+[submodule "hector_gazebo"]
+	path = hector_gazebo
+	url = ./hector_gazebo/
