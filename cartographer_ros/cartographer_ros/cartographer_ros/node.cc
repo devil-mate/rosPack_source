@@ -410,7 +410,7 @@ int Node::AddTrajectory(const TrajectoryOptions& options) {
   }
   return trajectory_id;
 }
-
+// 订阅消息
 void Node::LaunchSubscribers(const TrajectoryOptions& options,
                              const int trajectory_id) {
   for (const std::string& topic :
@@ -421,6 +421,8 @@ void Node::LaunchSubscribers(const TrajectoryOptions& options,
              this),
          topic});
   }
+  //c++11 for range 形式
+  // SubscribeWithHandler 模板；  HandleMultiEchoLaserScanMessage订阅器的 回调函数
   for (const std::string& topic : ComputeRepeatedTopicNames(
            kMultiEchoLaserScanTopic, options.num_multi_echo_laser_scans)) {
     subscribers_[trajectory_id].push_back(
